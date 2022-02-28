@@ -1,0 +1,346 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Display:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap");
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css");
+* {
+  padding: 0;
+  margin: 0;
+}
+#title {
+  font-family: "Playfair Display", serif;
+  font-weight: 700;
+  font-size: 38px;
+  position: relative;
+  bottom: 3px;
+}
+nav {
+  background-color: white;
+}
+#menu {
+  font-family: "Montserrat", sans-serif;
+  margin: 0px 20px;
+  transition: 0.3s;
+  font-weight: 500;
+  font-size: 17px;
+}
+#menu:hover {
+  color: orange;
+}
+#dot {
+  color: orange;
+}
+#home_t {
+  text-align: center;
+  position: relative;
+  top: 150px;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 300;
+}
+.sqia {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+  color: orange;
+}
+#home_p {
+  position: relative;
+  top: 180px;
+  padding: 0px 300px;
+  text-align: center;
+  font-family: "Poppins", sans-serif;
+  max-width: 100%;
+}
+#img-c {
+  margin-top: 250px;
+  display: block;
+  border-radius: 20px;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  z-index: 3;
+  width: 250px;
+  max-width: 90%;
+}
+#img-c-2 {
+  border-radius: 20px;
+  display: block;
+  position: relative;
+  left: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  bottom: 110px;
+  width: 250px;
+  max-width: 90%;
+}
+#img-c-3 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+  z-index: 2;
+  right: 200px;
+  bottom: 355px;
+  border-radius: 20px;
+  width: 250px;
+  max-width: 90%;
+}
+#btn-shop {
+  background-color: orange;
+  padding: 6px 20px;
+  display: block;
+  position: relative;
+  top: 185px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: white;
+  border: 1px solid orange;
+  transition: 0.4s;
+}
+#btn-shop:hover {
+  transform: scale(1.1);
+}
+#a_t {
+  text-align: center;
+  color: white;
+  font-family: "Playfair Display", serif;
+  background-color: white;
+  max-width: 100%;
+  font-size: 60px;
+  background-image: url(img/horse.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 150px 0px;
+  position: relative;
+  bottom: 110px;
+}
+#a-t-1 {
+  font-weight: 600px;
+}
+#sa-t {
+  color: black;
+  margin-top: 30px;
+  font-size: 30px;
+}
+#sa-p {
+  font-size: 20px;
+  font-family: "Montserrat", sans-serif;
+  color: black;
+  padding: 0px 100px;
+  margin-top: 20px;
+}
+#sa-pn {
+  background-color: orange;
+}
+#product_t {
+  text-align: center;
+}
+#product_t_1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 600;
+  font-size: 50px;
+  position: relative;
+  top: 100px;
+}
+#card_container {
+  text-align: center;
+  margin: 0 20px;
+  width: 240px;
+  padding: 20px 0px;
+}
+#card {
+  text-align: center;
+  margin-top: 20px;
+  background-color: white;
+  border: 1px solid rgb(226, 226, 226);
+  border-radius: 20px;
+  padding: 10px 0px;
+  transition: 0.25s;
+  cursor: pointer;
+}
+#card_img {
+  width: 200px;
+  border-radius: 20px;
+}
+#card_t {
+  font-family: "Playfair Display", serif;
+}
+#p_card {
+  font-family: "Montserrat", sans-serif;
+}
+#card:hover {
+  transform: scale(1.08);
+}
+#price_t {
+  color: orange;
+  font-family: "Montserrat", sans-serif;
+}
+#trending {
+  margin-top: 180px;
+  margin-left: 20px;
+  font-family: "Poppins", sans-serif;
+  color: black;
+  font-weight: 300;
+}
+#product2 {
+  position: relative;
+  bottom: 100px;
+}
+#product3 {
+  position: relative;
+  bottom: 200px;
+}
+#star {
+  color: orange;
+  position: relative;
+  bottom: 2px;
+}
+#btn_s {
+  font-family: "Montserrat", sans-serif;
+}
+.inpt_c {
+  width: 100%;
+}
+#line {
+  width: 80px;
+  height: 3px;
+  background-color: orange;
+  margin-right: auto;
+  margin-left: auto;
+  position: relative;
+  bottom: 5px;
+  border-radius: 20px;
+}
+#line_2 {
+  width: 80px;
+  height: 3px;
+  background-color: orange;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 20px;
+  position: relative;
+  top: 100px;
+  right: 10px;
+}
+.company {
+  margin-left: 10px;
+  margin-top: 20px;
+  font-family: "Montserrat", sans-serif;
+}
+#c_t {
+  width: 200px;
+  font-weight: 300;
+  color: orange;
+  font-family: "Playfair Display", serif;
+  text-align: center;
+}
+#vertical_line {
+  height: 101%;
+  width: 2px;
+  position: relative;
+  bottom: 90%;
+  left: 300px;
+  background-color: orange;
+}
+#c_p {
+  width: 200px;
+  text-align: center;
+  font-weight: 400;
+  margin-top: 30px;
+}
+#follow-us {
+  position: relative;
+  bottom: 140%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#fu-title {
+  position: relative;
+  bottom: 100px;
+  font-family: "Playfair Display", serif;
+  color: orange;
+}
+#instagram {
+  color: black;
+  position: relative;
+  bottom: 50px;
+}
+footer {
+  font-family: "Montserrat", sans-serif;
+}
+#copyright {
+  text-decoration: none;
+  font-family: "Playfair Display", serif;
+  font-size: 20px;
+}
+@media (max-width: 922px) {
+  #home_p {
+    padding: 0px 20px;
+  }
+}
+@media (max-width: 722px) {
+  #a_t {
+    margin-top: 190px;
+  }
+  #img-h {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 250px;
+  }
+  #img-c {
+    width: 200px;
+    bottom: 0px;
+    right: 0px;
+    margin-top: 0px;
+    border-radius: 15px;
+    border: 1px solid rgb(170, 170, 170);
+    transition: all 0.4s;
+  }
+  #img-c-2 {
+    width: 200px;
+    top: 130px;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 0px;
+    border-radius: 15px;
+    border: 1px solid rgb(170, 170, 170);
+    transition: all 0.4s;
+  }
+  #img-c-3 {
+    width: 200px;
+    left: 0px;
+    right: 0px;
+    bottom: 0px;
+    border-radius: 15px;
+    border: 1px solid rgb(170, 170, 170);
+    transition: all 0.4s;
+  }
+  #img-c:hover {
+    transform: scale(1.3);
+  }
+  #img-c-2:hover {
+    transform: scale(1.3);
+  }
+  #img-c-3:hover {
+    transform: scale(1.3);
+  }
+  #sa-p {
+    padding: 0px 60px;
+  }
+}
+@media (max-width: 486px) {
+  #img-h {
+    display: none;
+  }
+  #a_t {
+    top: 50px;
+  }
+  #sa-p {
+    padding: 0px 10px;
+    position: relative;
+    top: 20px6;
+  }
+}
